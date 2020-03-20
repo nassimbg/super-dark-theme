@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.nassim.theme.superdark</id>
   <name>Super Dark Theme</name>
-  <version>1.0</version>
+  <version>1.1</version>
   <vendor>Nassim</vendor>
 
   <description><![CDATA[
@@ -23,6 +23,8 @@
   <!-- uncomment to enable plugin in all products
   <depends>com.intellij.modules.lang</depends>
   -->
+
+  <depends>com.intellij.modules.platform</depends>
 
   <extensions defaultExtensionNs="com.intellij">
     <!-- Add your extensions here -->
