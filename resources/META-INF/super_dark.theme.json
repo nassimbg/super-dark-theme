@@ -1,0 +1,12 @@
+{
+  "name": "Super Dark",
+  "dark": true,
+  "author": "NassimBG",
+  "editorScheme": "/super_dark.xml",
+  "ui": {
+    "*": {
+      "background": "#37393b",
+      "borderColor": "#4b4b4b"
+    }
+  }
+}

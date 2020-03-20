@@ -1,0 +1,36 @@
+<idea-plugin>
+  <id>com.nassim.theme.superdark</id>
+  <name>Super Dark Theme</name>
+  <version>1.0</version>
+  <vendor>Nassim</vendor>
+
+  <description><![CDATA[
+      <a href="https://github.com/nassimbg/super-dark-theme">Repository</a><br><br><br>
+
+      To install:<br>
+      <ul>
+          <li>Go to Settings | Plugins, find the theme plugin and install it</li>
+          <li>Restart the IDE</li>
+          <li>Go to Settings | Appearance & Behavior | Appearance and select Super Dark in the Theme dropdown</li>
+      </ul>
+    ]]></description>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="173.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+    <themeProvider id="915f25f0-2372-4b04-90a4-eb6186cbde5c" path="/META-INF/super_dark.theme.json"/>
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
