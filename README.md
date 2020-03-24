@@ -1,1 +1,1 @@
-![Theme](./ThemeBackground.png "Super Dark Theme")
+![Theme](./pictures/ThemeBackground.png "Super Dark Theme")
