@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.nassim.theme.superdark</id>
   <name>Super Dark Theme</name>
-  <version>1.1.1</version>
+  <version>1.1.2</version>
   <vendor>Nassim</vendor>
 
   <description><![CDATA[
@@ -17,7 +17,8 @@
 
   <change-notes><![CDATA[
       <ul>
-          <li>Fix Idea minimum supported version to 191.0</li>
+          <li>Change coloring of method calls from #DF6A83 to default white</li>
+          <li>Remove font settings and depend on default settings</li>
       </ul>
   ]]>
   </change-notes>
